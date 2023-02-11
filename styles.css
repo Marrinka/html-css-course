@@ -1,0 +1,172 @@
+body {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background: #f6b47e38;
+    color:#2d1f04;
+}
+
+body p{
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1;
+    word-spacing: 10;
+    color: #11021a
+}
+
+.card{
+    border: 10px; 
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.hobbies{
+    background: #c98a5a;
+    color: #fff;
+}
+
+.hobbies ul {
+    margin: 0;
+
+}
+
+.hobbies ul li{
+    margin-bottom: 10px;
+    max-width: 150px;
+    border-bottom: 1px solid #222;
+}
+
+.hobbies ul li:hover{
+    font-size: 110%;
+}
+
+.experience{
+    background-color: #f8aa6f94;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.table td:nth-child(1),  .table th:nth-child(1){
+    width: 350px;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+.table tr:nth-child(even) {
+    background: #fffeee7e;
+}
+
+.table th:hover, .table td:hover {
+    padding: 0;
+    margin: 0;
+    background: #999;
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0;
+    margin-top: 3%;
+    padding: 2 px;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+    color:blue;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:active {
+    color:darkblue;
+}
+
+.btn {
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #999;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    height: auto;
+}
+
+.photo{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.form-group label{
+    display: block;
+    color: #222;
+}
+
+.form-group input{
+    background: transparent;
+    color: black;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1b1a18;
+    font-size: 16px;
+}
+
+.form-group textarea{
+    width: 100%;
+}
+
+.form-row {
+    display: inline-block;
+    width: 49%;
+}
+
+@media(max-width: 650px) {
+    .info {
+        display: block;
+    }
+    .photo {
+        height: 200px;
+        width: 200px;
+
+    }
+    .container  {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .form-row {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
